@@ -1,0 +1,6 @@
+heights <- factor(c("Short", "Tall", "Medium", "Tall"))
+print(heights)
+print(table(heights))
+
+x <- sample(LETTERS, 7)
+print(x)
