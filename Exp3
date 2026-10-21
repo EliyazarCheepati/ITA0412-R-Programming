@@ -1,0 +1,2 @@
+a<-array(1:20,dim=c(2,3,4))
+print(a)
