@@ -1,0 +1,28 @@
+rows_names_5X4<-c("row1","row2","row3","row4","row5")
+col_names_5X4<-c("col1","col2","col3","col4")
+matrix_5x4_col<-matrix(1:20,nrow=5,ncol=4,byrow=FALSE,
+                       dimnames=list(rows_names_5X4,col_names_5X4))
+matrix_5x4_row<-matrix(1:20,nrow=5,ncol=4,byrow=TRUE,
+                       dimnames=list(rows_names_5X4,col_names_5X4))
+print(matrix_5x4_col)
+print(matrix_5x4_row)
+
+rows_names_3X3<-c("row1","row2","row3")
+col_names_3X3<-c("col1","col2","col3")
+matrix_3x3_col<-matrix(1:9,nrow=3,ncol=3,byrow=FALSE,
+                       dimnames=list(rows_names_3X3,col_names_3X3))
+matrix_3x3_row<-matrix(1:9,nrow=3,ncol=3,byrow=TRUE,
+                       dimnames=list(rows_names_3X3,col_names_3X3))
+print(matrix_3x3_col)
+print(matrix_3x3_row)
+
+rows_name_2x2<-c("row1","row2")
+col_name_2x2<-c("col1","col2")
+matrix_2x2_col<-matrix(1:4,nrow=2,ncol=2,byrow=FALSE,
+                       dimnames=list(rows_name_2x2,col_name_2x2))
+matrix_2x2_row<-matrix(1:4,nrow=2,ncol=2,byrow=TRUE,
+                       dimnames=list(rows_name_2x2,col_name_2x2))
+
+print(matrix_2x2_col)
+print(matrix_2x2_row)
+
