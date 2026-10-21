@@ -1,0 +1,8 @@
+a<-array(1:8,dim=c(2,2,2),
+         dimnames=list(
+           c("R1","R2"),
+           C("C1","C2"),
+           C("T1","T2")))
+print(a)
+print(a[1,1,1])
+print(a[2,2,2])
